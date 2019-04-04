@@ -9,14 +9,14 @@ export default createMuiTheme({
         },
         secondary: indigo // Indigo is probably a good match with pink
     },
-    overrides: {
-        MuiButton: {
-            root: {
-                color: 'white',
-                '&:hover': {
-                    backgroundColor: '#FC8DFF'
-                }
-            }
-        }
-    }
+    // overrides: {
+    //     MuiButton: {
+    //         root: {
+    //             color: 'white',
+    //             '&:hover': {
+    //                 backgroundColor: '#FC8DFF'
+    //             }
+    //         }
+    //     }
+    // }
 });

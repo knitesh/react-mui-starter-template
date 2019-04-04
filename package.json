@@ -59,7 +59,9 @@
   "scripts": {
     "start": "PORT=9085 node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -119,5 +121,11 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.1.0-alpha.21",
+    "@storybook/addon-actions": "^5.1.0-alpha.21",
+    "@storybook/addon-links": "^5.1.0-alpha.21",
+    "@storybook/addons": "^5.1.0-alpha.21"
   }
 }
