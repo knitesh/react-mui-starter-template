@@ -10,26 +10,24 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
-import indigo from '@material-ui/core/colors/indigo';
-import pink from '@material-ui/core/colors/pink';
-import red from '@material-ui/core/colors/red';
+import theme from './theme';
 
 // All the following keys are optional.
 // We try our best to provide a great default value.
-const theme = createMuiTheme({
-    palette: {
-        primary: indigo,
-        secondary: pink,
-        error: red,
-        // Used by `getContrastText()` to maximize the contrast between the background and
-        // the text.
-        contrastThreshold: 3,
-        // Used to shift a color's luminance by approximately
-        // two indexes within its tonal palette.
-        // E.g., shift from Red 500 to Red 300 or Red 700.
-        tonalOffset: 0.2,
-    },
-});
+// const theme = createMuiTheme({
+//     palette: {
+//         primary: indigo,
+//         secondary: pink,
+//         error: red,
+//         // Used by `getContrastText()` to maximize the contrast between the background and
+//         // the text.
+//         contrastThreshold: 3,
+//         // Used to shift a color's luminance by approximately
+//         // two indexes within its tonal palette.
+//         // E.g., shift from Red 500 to Red 300 or Red 700.
+//         tonalOffset: 0.2,
+//     },
+// });
 
 const styles = {
     root: {
@@ -51,7 +49,8 @@ function Navbar(props) {
     return (
         <MuiThemeProvider theme={theme}>
             <div className={classes.root} >
-                <AppBar position="static" ccolor="default">
+                {/* style={{ background: '#5A0A77' }} */}
+                <AppBar position="static" ccolor="default" >
                     <Toolbar>
                         <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
                             <MenuIcon />
