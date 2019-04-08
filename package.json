@@ -61,7 +61,9 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "surge": "surge",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -127,6 +129,9 @@
     "@storybook/addon-knobs": "^5.0.6",
     "@storybook/addon-links": "^5.1.0-alpha.21",
     "@storybook/addons": "^5.1.0-alpha.21",
-    "@storybook/react": "^5.1.0-alpha.21"
-  }
+    "@storybook/react": "^5.1.0-alpha.21",
+    "gh-pages": "^2.0.1"
+  },
+  "PUBLIC_URL": "/react-mui-starter-template",
+  "homepage": "https://knitesh.github.io/react-mui-starter-template"
 }

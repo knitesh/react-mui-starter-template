@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, history } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
 import Login from './components/Login';
@@ -12,7 +12,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <CssBaseline />
           <Navbar />
