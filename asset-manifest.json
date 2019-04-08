@@ -1,13 +1,13 @@
 {
   "main.css": "/react-mui-starter-template/static/css/main.d5e85bf2.chunk.css",
-  "main.js": "/react-mui-starter-template/static/js/main.09b32839.chunk.js",
-  "main.js.map": "/react-mui-starter-template/static/js/main.09b32839.chunk.js.map",
+  "main.js": "/react-mui-starter-template/static/js/main.d66eaa1b.chunk.js",
+  "main.js.map": "/react-mui-starter-template/static/js/main.d66eaa1b.chunk.js.map",
   "runtime~main.js": "/react-mui-starter-template/static/js/runtime~main.d47801cf.js",
   "runtime~main.js.map": "/react-mui-starter-template/static/js/runtime~main.d47801cf.js.map",
   "static/js/2.e1b0b555.chunk.js": "/react-mui-starter-template/static/js/2.e1b0b555.chunk.js",
   "static/js/2.e1b0b555.chunk.js.map": "/react-mui-starter-template/static/js/2.e1b0b555.chunk.js.map",
   "index.html": "/react-mui-starter-template/index.html",
-  "precache-manifest.f1d008d81638e5a2073b0b4351a5b85e.js": "/react-mui-starter-template/precache-manifest.f1d008d81638e5a2073b0b4351a5b85e.js",
+  "precache-manifest.9f2f78695f1796abcf4e431d8610ae57.js": "/react-mui-starter-template/precache-manifest.9f2f78695f1796abcf4e431d8610ae57.js",
   "service-worker.js": "/react-mui-starter-template/service-worker.js",
   "static/css/main.d5e85bf2.chunk.css.map": "/react-mui-starter-template/static/css/main.d5e85bf2.chunk.css.map"
 }
